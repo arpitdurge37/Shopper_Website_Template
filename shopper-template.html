@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper</title>
+    <link rel="shortcut icon" href="public/images/favicon.ico">
+    <link  rel="stylesheet"  href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .brand-title {
+            font-size: 28px;
+            font-weight: bold;
+            font-family: Arial;
+        }
+        nav span {      
+            font-size: 24px;
+            font-family: Arial;
+            margin-right: 15px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        article {
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 15px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        .bi-lightning-fill {
+            color:rgb(231, 21, 21);
+        }
+         footer {
+            padding: 10px;
+            background-color: black;
+            color: white;
+            height: 500px;
+        }
+        .footer-title {
+            font-family: Arial;
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 30px;
+            display: inline-block;
+        }
+        .title-container {
+            text-align: center;
+        }
+        .email{
+            background-color: darkslategrey;
+            padding: 20px;
+            width: 350px;
+            display: inline-block;
+            margin-top: 30px;
+            text-align: left;
+        }
+        .subscribe{
+            background-color: gray;
+            padding: 20px;
+            width: 150px;
+            display: inline-block;
+            margin-left: 20px;
+        }
+        .footer-container{
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+        }
+        .service-title~span, address span {
+            display: block;
+            margin-bottom: 15px;
+        }
+        .footer-brand {
+            font-size: 30px;
+            font-family: Arial;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        aside span {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        main{
+            height: 500px;
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            grid-gap: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .women-fashion {
+            background-image: url("public/images/womens-fashion.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .men-fashion {
+            background-image: url("public/images/mens-fashion.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .kids-fashion {
+            background-image: url("public/images/kids-fashion.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .main-title {
+            font-size: 50px;
+            color:white;
+            font-weight: bold;
+            text-shadow: 2px 2px 1px black;
+        }
+        .btn-shop {
+            width: 120px;
+            background-color: white;
+            padding: 10px;
+            font-size: 16px;
+            font-family: Arial;
+        }
+        .trends {
+            padding: 100px;
+            text-align: center;
+        }
+        .trends span {
+            display: block;
+            margin-bottom: 20px;
+        }
+        .trends-subtitle {
+            color:gray;
+            font-size: 20px;
+            font-family: Arial;
+        }
+        .trends-title {
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Arial;
+        }
+        .trends-text {
+            font-size: 20px;
+            font-family: Arial;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-title">Shopper.</span>
+        </div>
+        <div>
+            <nav>
+                <span>Home</span>
+                <span>Catalog</span>
+                <span>Shop</span>
+                <span>Pages</span>
+                <span>Blog</span>
+                <span>Docs</span>
+            </nav>
+        </div>
+        <div>
+            <nav> <span class="bi bi-heart"></span>
+                <span class="bi bi-person"></span>
+                <span class="bi bi-heart"></span>
+                <span class="bi bi-cart4"><span>2</span></span>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <span class="bi bi-lightning-fill"></span>
+        <span> HAPPY HOLIDAY DEALS ON EVERYTHING </span>
+        <span class="bi bi-lightning-fill"></span>
+    </article>
+    <section>
+        <main>
+            <div class="women-fashion">
+                <div class="main-title">Women</div>
+                <div class="btn-shop">
+                    Shop Women <span class="bi bi-arrow-right"></span>
+                </div>
+            </div>
+            <div class="men-fashion">
+                <div class="main-title">Men</div>
+                <div class="btn-shop">
+                    Shop Men <span class="bi bi-arrow-right"></span>
+                </div>
+            </div>
+            <div class="kids-fashion">
+                <div class="main-title">Kids</div>
+                <div class="btn-shop">
+                    Shop Kids <span class="bi bi-arrow-right"></span>
+                </div>
+            </div>
+        </main>
+        <div class="trends">
+            <span class="trends-subtitle">NEW COLLECTION</span>
+            <span class="trends-title">Best Picks 2020</span>
+            <span class="trends-text">Appear, dry there darkness they're seas, dry waters thing fly midst. Beast, above fly brought Very green.</span>
+        </div>
+    </section>
+    <footer>
+        <div class="title-container">
+            <div>
+                <span class="footer-title"> Want style Ideas and Treats? </span>
+            </div>
+            <div>
+                <span class="email">Enter Email*</span> <span class="subscribe">Subscribe</span>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div>
+                <div class="footer-brand">Shopper.</div>
+                <aside>
+                    <span class="bi bi-facebook"></span>
+                    <span class="bi bi-twitter"></span>
+                    <span class="bi bi-instagram"></span>
+                    <span class="bi bi-linkedin"></span>
+                </aside>
+            </div>
+            <div>
+                <div class="service-title">SUPPORT</div>
+                <span>Contact Us</span>
+                <span>FAQs</span>
+                <span>Size Guide</span>
+                <span>Shipping & Returns</span>
+            </div>
+            <div>
+                <div class="service-title">SHOP</div>
+                <span>Men's Shopping</span>
+                <span>Women's Shopping</span>
+                <span>Kids' Shopping</span>
+                <span>Discounts</span>
+            </div>
+            <div>
+                <div class="service-title">COMPANY</div>
+                <span>Our Story</span>
+                <span>Careers</span>
+                <span>Terms & Conditions</span>
+                <span>Privacy & Cookie policy</span>
+            </div>
+            <div>
+                <div class="service-title">CONTACT</div>
+                <address>
+                    <span>1-202-555-0105</span>
+                    <span>1-202-555-0106</span>
+                    <span>help@shopper.com</span>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
